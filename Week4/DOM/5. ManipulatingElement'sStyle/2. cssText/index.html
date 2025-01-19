@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <input type= "text" id="username" placeholder= "username" style= "background-color: red; font-size: 20px;">
+     
+     <script>
+         let inputBox = document.getElementById ("username");
+         
+        //  inputBox.style.cssText="width:100px; height:10px" //It will override style completely.
+         inputBox.style.cssText+="width:100px; height:30px" 
+         console.log(inputBox);
+     </script>
+</body>
+</html>

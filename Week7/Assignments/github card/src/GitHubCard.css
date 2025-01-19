@@ -1,0 +1,47 @@
+/* GitHubCard.css */
+
+.github-card {
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #f6f8fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #586069;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,85 @@
+.bg-changer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 7px;
+    gap: 20px;
+    padding: 7px 10px;
+    box-shadow: 2px 1.5px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+
+.Red{
+  align-items: center;
+  background-color: Red;
+  border-radius: 7px;
+  border: none;
+  width: 50px;
+  height: 25px;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.Yellow{
+  align-items: center;
+  background-color: Yellow;
+  border-radius: 7px;
+  border: none;
+  width: 55px;
+  height: 25px;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.Black{
+  align-items: center;
+  background-color: Black;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  width: 50px;
+  height: 25px;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.Purple{
+  align-items: center;
+  background-color: Purple;
+  border-radius: 7px;
+  border: none;
+  width: 55px;
+  height: 25px;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.Green{
+  align-items: center;
+  background-color: Green;border-radius: 7px;
+  border: none;
+  width: 55px;
+  height: 25px;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.Blue{
+  align-items: center;
+  background-color: Blue;border-radius: 7px;
+  border: none;
+  width: 45px;
+  height: 25px;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.Default{
+  align-items: center;
+  background-color: orangered;border-radius: 7px;
+  border: none;
+  width: 65px;
+  height: 25px;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

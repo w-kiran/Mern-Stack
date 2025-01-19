@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ 
+        <h1 class="message">First Heading</h1>
+        <div id="container">
+            <h1 class="message">Second Heading</h1>
+            <h1 class="message">Third Heading</h1>
+        </div>
+        
+
+    <script>
+        let msg= document.querySelector(".message"); // .something
+        let msg1= document.querySelectorAll(".message"); // .something for classname
+        let msg2= document.querySelectorAll("#container"); // #something for id
+        let msg3= document.querySelectorAll("div"); //Selects all within div element
+        let msg4= document.querySelectorAll("h1"); //Selects all having h1 tag
+        let msg5= document.querySelectorAll("div h1"); //Selects heading within div element
+        let msg6= document.querySelectorAll("div,h1"); //Selects all heading and div element
+        console.log(msg) 
+        console.log(msg1)
+        console.log(msg2)
+        console.log(msg3)
+        console.log(msg4)
+        console.log(msg5)
+        console.log(msg6)
+    </script>
+</body>
+
+</html>

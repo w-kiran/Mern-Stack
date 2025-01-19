@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li style= "display: none; ">Project</li>
+    </ul>
+    <ul id="menu1">
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li style= "display: none; ">Project</li>
+    </ul>
+ <script>
+    let menu = document. getElementById ("menu");
+    let menu1 = document. getElementById ("menu1");
+    let str1="hello"
+    let str2="world"
+    menu.prepend(menu1)
+    menu.prepend(str1,str2)
+  </script>
+ </body>
+</html>
