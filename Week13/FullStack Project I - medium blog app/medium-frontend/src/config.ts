@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://medium-backend.joshi888kiran.workers.dev"
