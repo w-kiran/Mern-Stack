@@ -1,0 +1,12 @@
+1. docker pull postgres
+2. docker run --name kirangres-db \
+  -e POSTGRES_USER=kirangres \
+  -e POSTGRES_PASSWORD=blablabla \
+  -e POSTGRES_DB=kirangres \
+  -p 5432:5432 \
+  -d postgres
+3. docker exec -it kirangres-db psql -U kirangres -d kirangres
+4. to start : docker start kirangres-db
+5. to stop : docker stop kirangres-db
+
+
